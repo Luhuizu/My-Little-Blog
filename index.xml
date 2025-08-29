@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://luhuizu.github.io/My-Little-Blog/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://luhuizu.github.io/My-Little-Blog/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome on My New Hugo Site</title><link>https://luhuizu.github.io/My-Little-Blog/</link><description>Recent content in Welcome on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 29 Aug 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://luhuizu.github.io/My-Little-Blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello,Terminal Theme</title><link>https://luhuizu.github.io/My-Little-Blog/post/hello-terminal/</link><pubDate>Fri, 29 Aug 2025 10:00:00 +0800</pubDate><guid>https://luhuizu.github.io/My-Little-Blog/post/hello-terminal/</guid><description>&lt;p&gt;This is my first post on the new setup.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Theme: Terminal&lt;/li&gt;
+&lt;li&gt;Why: fast,clean,hacker vibe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# sample code block&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>
