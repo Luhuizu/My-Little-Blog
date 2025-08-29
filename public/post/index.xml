@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome on My New Hugo Site</title>
-    <link>http://localhost:1313/My-Little-Blog/</link>
-    <description>Recent content in Welcome on My New Hugo Site</description>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/My-Little-Blog/post/</link>
+    <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Aug 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/My-Little-Blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/My-Little-Blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Note] Create First Hugo Blog</title>
       <link>http://localhost:1313/My-Little-Blog/post/notecreate-first-hugo-blog/</link>

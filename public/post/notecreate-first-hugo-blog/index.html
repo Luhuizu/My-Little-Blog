@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/My-Little-Blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=My-Little-Blog/livereload" data-no-instant defer></script>
+  
+    <title>[Note] Create First Hugo Blog :: My New Hugo Site</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Why I Started This Blog I wanted a place to ducument both my technical journey and personal growth.
+Notes on Building This Blog This is my very first attempt at creating a Hugo static site.
+I&rsquo;ll keep it simple for now - just recording the steps I took.
+Maybe in the future,when I learn more,I&rsquo;ll come back and add more details.
+Getting Started My test/lab environment
+OS：windows 11
+WSL：Ubutun(works inside WSL’s Linux filesystem,e.g.,~/sites)
+" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://localhost:1313/My-Little-Blog/post/notecreate-first-hugo-blog/" />
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/My-Little-Blog/assets/style.css">
+
+  <link rel="stylesheet" href="http://localhost:1313/My-Little-Blog/assets/green.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:1313/My-Little-Blog/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="http://localhost:1313/My-Little-Blog/img/favicon/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="[Note] Create First Hugo Blog :: My New Hugo Site">
+<meta property="og:description" content="Note for process of buiding the static blog." />
+<meta property="og:url" content="http://localhost:1313/My-Little-Blog/post/notecreate-first-hugo-blog/" />
+<meta property="og:site_name" content="[Note] Create First Hugo Blog" />
+
+  
+    <meta property="og:image" content="http://localhost:1313/My-Little-Blog/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+  <meta property="article:section" content="blog" />
+
+
+  <meta property="article:published_time" content="2025-08-29 10:00:00 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="green">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/My-Little-Blog/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/My-Little-Blog/post/">Post</a></li>
+        
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/My-Little-Blog/post/">Post</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/My-Little-Blog/post/notecreate-first-hugo-blog/">[Note] Create First Hugo Blog</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2025-08-29 
+      </span>
+    
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="http://localhost:1313/My-Little-Blog/tags/hugo/">hugo</a>&nbsp;
+    
+    #<a href="http://localhost:1313/My-Little-Blog/tags/blog/">blog</a>&nbsp;
+    
+    #<a href="http://localhost:1313/My-Little-Blog/tags/note/">Note</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <h2 id="why-i-started-this-blog">Why I Started This Blog<a href="#why-i-started-this-blog" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>I wanted a place to ducument both my technical journey and personal growth.</p>
+<hr>
+<h3 id="notes-on-building-this-blog">Notes on Building This Blog<a href="#notes-on-building-this-blog" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>This is my very first attempt at creating a Hugo static site.<br>
+I&rsquo;ll keep it simple for now - just recording the steps I took.<br>
+Maybe in the future,when I learn more,I&rsquo;ll come back and add more details.</p>
+<hr>
+<h4 id="getting-started">Getting Started<a href="#getting-started" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p>My test/lab environment<br>
+OS：windows 11<br>
+WSL：Ubutun(works inside WSL’s Linux filesystem,e.g.,~/sites)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Install HUGO  
+</span></span><span style="display:flex;"><span>Install Hugo extended(x86_64/amd64)
+</span></span><span style="display:flex;"><span>Commands(preferred: .deb install)
+</span></span><span style="display:flex;"><span>   ```bash
+</span></span><span style="display:flex;"><span>   # Remove any old distro Hugo
+</span></span><span style="display:flex;"><span>   sudo apt remove -y hugo   
+</span></span><span style="display:flex;"><span>   # Copy the correct package (from your Windows Downloads) into WSL home
+</span></span><span style="display:flex;"><span>   cp /mnt/c/Users/&lt;YOU&gt;/Downloads/hugo_extended_*_linux-amd64. deb ~/
+</span></span><span style="display:flex;"><span>   # Fix perms (optional safety)
+</span></span><span style="display:flex;"><span>   chmod 644 ~/hugo_extended_*_linux-amd64.deb
+</span></span><span style="display:flex;"><span>   # Install
+</span></span><span style="display:flex;"><span>   sudo apt install -y ./hugo_extended_*_linux-amd64.deb
+</span></span><span style="display:flex;"><span>   # Verify
+</span></span><span style="display:flex;"><span>   hugo version   # expect: hugo v0.128+ <span style="font-style:italic">*+extended*</span> linux/amd64
+</span></span></code></pre></div><ol start="2">
+<li>Create Site(in WSL)
+keep the project in Linux FS for speed and fewer path issues.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p ~/sites
+</span></span><span style="display:flex;"><span>cd ~/sites
+</span></span><span style="display:flex;"><span>hugo new site myblog
+</span></span><span style="display:flex;"><span>cd myblog
+</span></span></code></pre></div><hr>
+<p><em>For now, this is just a starting point. Future me can fill in the blanks when I know more.</em></p>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="http://localhost:1313/My-Little-Blog/assets/main.js"></script>
+<script src="http://localhost:1313/My-Little-Blog/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
