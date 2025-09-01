@@ -1,8 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on My New Hugo Site</title><link>https://luhuizu.github.io/My-Little-Blog/tags/hugo/</link><description>Recent content in Hugo on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 29 Aug 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://luhuizu.github.io/My-Little-Blog/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello,Terminal Theme</title><link>https://luhuizu.github.io/My-Little-Blog/post/hello-terminal/</link><pubDate>Fri, 29 Aug 2025 10:00:00 +0800</pubDate><guid>https://luhuizu.github.io/My-Little-Blog/post/hello-terminal/</guid><description>&lt;p&gt;This is my first post on the new setup.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Theme: Terminal&lt;/li&gt;
-&lt;li&gt;Why: fast,clean,hacker vibe&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# sample code block&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on My New Hugo Site</title>
+    <link>http://localhost:1313/My-Little-Blog/tags/hugo/</link>
+    <description>Recent content in Hugo on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Aug 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/My-Little-Blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Note] Create First Hugo Blog</title>
+      <link>http://localhost:1313/My-Little-Blog/post/notecreate-first-hugo-blog/</link>
+      <pubDate>Fri, 29 Aug 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/My-Little-Blog/post/notecreate-first-hugo-blog/</guid>
+      <description>&lt;h2 id=&#34;why-i-started-this-blog&#34;&gt;Why I Started This Blog&lt;/h2&gt;&#xA;&lt;p&gt;I wanted a place to ducument both my technical journey and personal growth.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;notes-on-building-this-blog&#34;&gt;Notes on Building This Blog&lt;/h3&gt;&#xA;&lt;p&gt;This is my very first attempt at creating a Hugo static site.&lt;br&gt;&#xA;I&amp;rsquo;ll keep it simple for now - just recording the steps I took.&lt;br&gt;&#xA;Maybe in the future,when I learn more,I&amp;rsquo;ll come back and add more details.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h4&gt;&#xA;&lt;p&gt;My test/lab environment&lt;br&gt;&#xA;OS：windows 11&lt;br&gt;&#xA;WSL：Ubutun(works inside WSL’s Linux filesystem,e.g.,~/sites)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello,Terminal Theme</title>
+      <link>http://localhost:1313/My-Little-Blog/post/hello-terminal/</link>
+      <pubDate>Fri, 29 Aug 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/My-Little-Blog/post/hello-terminal/</guid>
+      <description>&lt;p&gt;This is my first post on the new setup.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Theme: Terminal&lt;/li&gt;&#xA;&lt;li&gt;Why: fast,clean,hacker vibe&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# sample code block&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

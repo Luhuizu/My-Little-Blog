@@ -40,7 +40,7 @@ Commands(preferred: .deb install)
    # Verify
    hugo version   # expect: hugo v0.128+ *+extended* linux/amd64
    ```
-2. Create Site(in WSL)
+2.
 keep the project in Linux FS for speed and fewer path issues.
 ```bash
 mkdir -p ~/sites
